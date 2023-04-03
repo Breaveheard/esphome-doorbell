@@ -7,8 +7,8 @@ esphome:
   platform: ESP8266
   board: d1_mini
   project:
-    name: zuidwijk.doorbell
-    version: "2.0"
+    name: breaveheard.doorbell
+    version: "2.1"
  
 wifi:
   ap:

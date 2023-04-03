@@ -90,8 +90,8 @@ binary_sensor:
     name: "Doorbell"
     filters:
       # Small filter, to debounce the button press.
-      - delayed_on: 25ms
-      - delayed_off: 25ms
+      - delayed_on: 50ms
+      - delayed_off: 2000ms
     on_press:
       # Only turn on the chime when it is active.
       then:

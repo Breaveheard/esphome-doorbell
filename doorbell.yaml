@@ -8,7 +8,7 @@ esphome:
   board: d1_mini
   project:
     name: breaveheard.doorbell
-    version: "2.1"
+    version: "2.2"
  
 wifi:
   ap:
@@ -69,7 +69,6 @@ switch:
   - platform: template
     name: Doorbell Chime Active
     id: chime_active
-    restore_state: false
     turn_on_action:
       - globals.set:
           id: chime

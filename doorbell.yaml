@@ -8,7 +8,7 @@ esphome:
   board: d1_mini
   project:
     name: breaveheard.doorbell
-    version: "2.2"
+    version: "2.3"
  
 wifi:
   ap:
@@ -23,6 +23,7 @@ logger:
 api:
  
 ota:
+ - platform: esphome
 
 dashboard_import:
   package_import_url: github://Breaveheard/esphome-doorbell/doorbell.yaml@main

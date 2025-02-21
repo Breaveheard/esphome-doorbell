@@ -9,7 +9,7 @@ esphome:
   name: ${device_name}
   project:
     name: breaveheard.doorbell
-    version: "2.3"
+    version: "2.5"
  
 wifi:
   ap:

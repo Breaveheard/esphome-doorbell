@@ -2,10 +2,11 @@
 substitutions:
   device_name: doorbell
   
+esp8266:
+  board: d1_mini
+
 esphome:
   name: ${device_name}
-  platform: ESP8266
-  board: d1_mini
   project:
     name: breaveheard.doorbell
     version: "2.3"
